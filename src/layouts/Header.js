@@ -21,7 +21,7 @@ const Header = () => {
             }
         }
 
-        window.addEventListener('scroll', toggleHeader)
+        document.addEventListener('scroll', toggleHeader)
         return () => window.removeEventListener('scroll', toggleHeader)
     }, [navBarAni])
 
@@ -38,7 +38,6 @@ const Header = () => {
                                 items-center
                                 px-16
                                 z-[100]
-                                
                                 ${navBarAni}`}
         >
             <a href={"https://marvel.com"} target={"_blank"} rel={"noreferrer noopener"}>
