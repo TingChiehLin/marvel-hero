@@ -1,6 +1,6 @@
-# Scroll Animation with React
+# Marvel-Hero
 
-This application is aimed for scroll-animaiton including parallax and cool animation.
+This application is aimed for scroll-animaiton including parallax and cool animation 😎
 
 ## Technical use
 
