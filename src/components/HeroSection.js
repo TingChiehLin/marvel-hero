@@ -43,7 +43,7 @@ const HeroSection = ({id, title, description, img}) => {
                     toggleActions: 'play none none reverse',
                 }
             })
-    }, []);
+    }, [id]);
 
     return (
         <section
